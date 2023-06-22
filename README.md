@@ -1,23 +1,23 @@
 # face-recognition
 
-## Članovi tima:
-Novica Nikolić, SW93-2016
+## Team members:
+Kariuki
 
-## Definicija problema:
-Prepoznavanje i identifikovanje osoba na slici/snimku.
+## Problem definition:
+Recognition and identification of persons in the picture/video.
 
-## Motivacija problema:
-Danas sve vise modernih bezbednosnih sitema koriste neki vid identifikovanja osoba radi kontrole pristupa zaposlenim u kompaniji. Rešenje problema se može primeniti u bankovnim bezbednosnim sistemima kao jedan vidi kontrole zaposlenih.
-A detekcija osoba na slici je postao masovni problem za većinu društvenih mreža.
-Na osnovu datih primjera primjene detekcije i identifikacije osoba, vidi se da sistem u današnjem vremenu nalazi primjenu na raznim problemima.
+## Problem motivation:
+Today, more and more modern security systems use some form of identification to control access to company employees. The solution to the problem can be implemented in bank security systems as one sees employee controls.
+And the detection of people in the picture has become a massive problem for most social networks.
+Based on the given examples of the application of detection and identification of persons, it can be seen that the system is currently being used for various problems.
 
-## Skup podatak:
-Skup podataka za identifikovanje osoba ću ručno generisati na osnovu primjera.
+## Data set:
+I will manually generate the PID data set based on the example.
 
-## Metodologija:
-Za realizaciju projekta koristiće se Python programski jezik i njegova OpenCV biblioteka. Pomocu CascadeClassifier i skupa tacaka koje se koriste za detekciju lica link , izvršice se detekcija lica osobe.
+## Methodology:
+The Python programming language and its OpenCV library will be used for the realization of the project. Using the CascadeClassifier and a set of points used for face detection link, the person's face will be detected.
 
-Na osnovu skupa podataka koji je predhodno generisan, obučiće se neuronska mreža pomću cv2.face.traing mehanizma kako bi dobili predikciju osoba na slici/snimku
+Based on the data set that was previously generated, a neural network will be trained using the cv2.face.traing mechanism in order to obtain a prediction of persons in the image/video.
 
-## Model evaluacije:
-Za model evaluacije prepoznavanja i identifikovanja osoba koristio bi: precision, recall i f1-score.
+## Evaluation model:
+For the evaluation model of recognition and identification of persons, he would use: precision, recall and f1-score.
